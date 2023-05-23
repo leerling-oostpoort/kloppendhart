@@ -1,3 +1,10 @@
+input.onButtonPressed(Button.A, function () {
+    for (let index = 0; index < 3; index++) {
+        basic.showIcon(IconNames.Heart)
+        basic.pause(200)
+    }
+    basic.clearScreen()
+})
 input.onButtonPressed(Button.B, function () {
     for (let index = 0; index < 3; index++) {
         basic.showIcon(IconNames.Heart)
@@ -16,5 +23,4 @@ input.onButtonPressed(Button.B, function () {
         basic.pause(200)
         basic.showIcon(IconNames.Heart)
     }
-    basic.clearScreen()
 })
